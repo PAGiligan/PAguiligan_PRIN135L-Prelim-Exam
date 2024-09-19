@@ -178,15 +178,57 @@ and break lines.</pre></p></td>
             <td><p>This is a <ins>inserted</ins> text.</p></td>
         </tr>
         <tr>
-            <td>Inserted Text</td>
+            <td>Subscript Text</td>
             <td>This is a &lt;sub&gt;subcripted &lt;/sub&gt; text.</td>
             <td><p>This is a <sub>subscripted</sub> text.</p></td>
         </tr>
         <tr>
-            <td>Inserted Text</td>
+            <td>Superscript Text</td>
             <td>This is a &lt;sup&gt;superscripted &lt;/sup&gt; text.</td>
             <td><p>This is a <sup>superscripted</sup> text.</p></td>
         </tr>
+    </table>
+    <h2 id="media">HTML Media (<a href="#top">top</a>)</h2>
+
+    <table border="1">
+        <tr>
+            <th>Description</th>
+            <th>Markup</th>
+            <th>Output</th>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td>&lt;img src ="source.jpg" alt="alternate text"&gt;</td>
+            <td><img src="https://fastly.picsum.photos/id/322/320/240.jpg?hmac=351EvovsMI_SluAJTUwfL17yLAXO3rAGaxpbtmNuAQs"></td>
+        </tr>
+        <tr>
+            <td>Video</td>
+            <td>&lt;video width="320" height="240" controls&gt; <br>
+                &lt;source src="source.mp4" type="video/mp4"&gt; <br>
+                &lt;source src="source.ogg" type="video/ogg&gt; <br>
+                Your browser does not support the video tag. <br>
+                &lt;/video&gt;</td>
+            <td><video width="320" height="240" controls>
+                <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+            </video>/td>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>&lt;audio&gt; controls <br>
+                &lt;source src="source.ogg" type="audio/ogg"&gt; <br>
+                &lt;source src="source.mp3" type="audio/mpeg&gt; <br>
+                Your browser does not support the audio element. <br>
+                &lt;/audio&gt;</td>
+            <td><audio controls>
+                <source src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov" type="audio/mp3">
+            </audio></h3></td>
+        </tr>
+        <tr>
+            <td>Iframe</td>
+            <td>&lt;ifram src="url"&gt;&lt;/iframe&gt;</td>
+            <td><iframe src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGRGfdqqK0&#x2F;a4g7Fq1ZCb-A6DrYhHa-rQ&#x2F;view?embed"></iframe></td>
+        </tr>
+
     </table>
 
 </body>
