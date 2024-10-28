@@ -1,6 +1,3 @@
-* {
-    
-}
 
 html {
     scroll-behavior: smooth;
@@ -21,7 +18,7 @@ body {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-color: #fff; 
+    background-color: #E0CDCC; 
     overflow-x: hidden; 
     padding-top: 20px;
     border: 2px solid #555;
@@ -59,7 +56,7 @@ body {
 }
 
 .sidebar li:hover {
-    background-color: gray;
+    background-color: #91987C;
     font-size: 18px;
     transition-duration: 0.5s;
 }
@@ -81,4 +78,8 @@ table {
 img,video,iframe{
     max-width: 100%;
     height: auto;
+}
+
+th {
+    background-color:#7F86D2;
 }
