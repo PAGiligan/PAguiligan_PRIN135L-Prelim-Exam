@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <style>
         h1 { font-size: 2em; }
        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Tiny5&display=swap" rel="stylesheet">
 <title>Title of the document</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 </head>
 
 <body>
-<h1>PRIN-135: HTML Cheatsheet</h1>
-<ul>
-    <li><a href="#header">HTML Headers</a></li>
-    <li><a href="#typography">HTML Typography</a></li>
-    <li><a href="#formatting">HTML Formatting</a></li>
-    <li><a href="#media">HTML Media</a></li>
-    <li><a href="#table">HTML Table</a></li>
-    <li><a href="#forms">HTML Forms</a></li>
-</ul>
-<h2 id="header">HTML Headers (<a href="#top">top</a>)</h2>
+    <nav id="mySidenav", class="sidebar">
+        <h1 id="top">PRIN-135: HTML Cheatsheet</h1>
+        <ul>
+            <a href="#header"><li>HTML Header</li></a>
+            <a href="#typography"><li>HTML Typography</li></a>  
+            <a href="#formatting"><li>HTML Formatting</li></a>  
+            <a href="#media"><li>HTML Media</li></a>  
+            <a href="#table"><li>HTML Table</li></a>
+            <a href="#forms"><li>HTML Forms</li></a>      
+        </ul>
+        <p>© PRIN135 Midterm Exam <br><a href="https://github.com/PAGiligan"><strong>PAGiligan</strong></a></p>
+    </nav>
+
+<h2 id="header">HTML Headers</h2>
 <div >
     <table border="1">
         <tr>
@@ -59,7 +67,7 @@
         </tr>
     </table>
 </div>
-<h2 id="typography">HTML Typography (<a href="#top">top</a>)</h2>
+<h2 id="typography">HTML Typography</h2>
 
 
     <table border="1">
@@ -140,7 +148,7 @@ and break lines.</pre></p></td>
         </tr>
     </table>
 
-    <h2 id="formatting">HTML Formatting (<a href="#top">top</a>)</h2>
+    <h2 id="formatting">HTML Formatting</h2>
     <table border="1">
         <tr>
             <th>Description</th>
@@ -190,7 +198,7 @@ and break lines.</pre></p></td>
             <td><p>This is a <sup>superscripted</sup> text.</p></td>
         </tr>
     </table>
-    <h2 id="media">HTML Media (<a href="#top">top</a>)</h2>
+    <h2 id="media">HTML Media</h2>
 
     <table border="1">
         <tr>
@@ -212,7 +220,7 @@ and break lines.</pre></p></td>
                 &lt;/video&gt;</td>
             <td><video width="320" height="240" controls>
                 <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
-            </video>/td>
+            </video>
         </tr>
         <tr>
             <td>Audio</td>
@@ -234,7 +242,7 @@ and break lines.</pre></p></td>
     </table>
 
 
-    <h2>HTML Table <a href="#top">(top)</a></h2>
+    <h2 id="table">HTML Table</h2>
     <table border="1">
       <thead>
         <tr>
@@ -244,7 +252,6 @@ and break lines.</pre></p></td>
           <th>Output</th>
         </tr>
       </thead>
-      <tbody>
         <tr>
           <td><p>Table</p></td>
           <td><code>&lt;table&gt;&lt;/table&gt;</code></td>
@@ -360,7 +367,9 @@ and break lines.</pre></p></td>
         </tr>
       </tbody>
     </table>
-    <h2 id="forms">HTML Forms (<a href="#top">top</a>)</h2>
+
+
+    <h2 id="forms">HTML Forms</h2>
     <table border="1">
         <tr>
             <th>Description</th>
